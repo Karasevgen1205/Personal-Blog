@@ -211,7 +211,7 @@ function images(cb) {
         .pipe(dest(path.build.images))
         .pipe(browserSync.reload({stream: true}));
 
-    cb()
+    cb();
 }
 
 function fonts(cb) {
