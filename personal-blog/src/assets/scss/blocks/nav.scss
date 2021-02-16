@@ -1,0 +1,13 @@
+.nav__list {
+    display: flex;
+}
+
+.nav__link {
+    display: block;
+    padding: 1.5rem;
+
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: $white;
+    text-decoration: none;
+}
