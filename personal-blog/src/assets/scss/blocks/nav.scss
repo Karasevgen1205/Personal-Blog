@@ -4,10 +4,23 @@
 
 .nav__link {
     display: block;
-    padding: 1.5rem;
+    padding: 1.35rem;
 
     font-size: 1.1rem;
+    line-height: 1.2rem;
     text-transform: uppercase;
     color: $white;
     text-decoration: none;
+
+    transition: background-color .2s linear;
+
+    &:hover {
+        background-color: $blue;
+    }
+
+    &.has-subnav {
+        &:after {
+            content: "";
+        }        
+    }
 }
