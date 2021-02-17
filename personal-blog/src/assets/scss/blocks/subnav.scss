@@ -6,8 +6,8 @@
 
     background-color: $blue;
     border-radius: 0 0 5px 5px;
-    box-shadow: 0 6px 8px rgba($color: $black, $alpha: .2);
-    
+    box-shadow: 0 6px 8px rgba($black, .2);
+
     position: absolute;
     top: 100%;
     left: 0;
@@ -20,10 +20,18 @@
     font-size: 1.2rem;
     color: $white;
     text-decoration: none;
-    
+
     transition: background-color .2s ease-in-out;
 
     &:hover {
-        background-color: durken($blue, 10%);
+        background-color: darken($blue, 5%);
     }
-} 
+}
+
+
+
+
+
+
+
+

@@ -1,8 +1,10 @@
 .sidebar {
     width: $sidebar-width;
     height: 100vh;
+
     background-color: $primary;
-    box-shadow: 5px 0 15px rgba(#050505, 0.5);
+    box-shadow: 5px 0 15px rgba(#050505, .1);
+
     position: fixed;
     top: 0;
     left: 0;
@@ -12,7 +14,7 @@
 .sidebar__header {
     height: 180px;
     background-color: $secondary;
-    
+
     img {
         display: block;
         width: 100%;
@@ -31,3 +33,6 @@
     justify-content: space-between;
     padding: 0 2rem;
 }
+
+
+
