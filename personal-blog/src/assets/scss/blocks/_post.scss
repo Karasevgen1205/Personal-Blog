@@ -7,6 +7,27 @@
     border-radius: 5px;
 }
 
+.post__header {
+    margin: -2.5rem -2.5rem;
+    padding: 0 0 40px 0;
+
+    &:hover {
+        cursor: pointer;
+        
+    }
+
+    &--video {
+        margin: 0 0 2.5rem;
+    }
+
+}
+
+.post__preview {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .post__content {
     margin-bottom: 2rem;
 }
@@ -36,6 +57,7 @@
 .post__footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .post__date {
@@ -50,16 +72,6 @@
         &:hover {
             text-decoration: underline;
         }
-    }
-}
-
-.post__header {
-    margin: -2.5rem -2.5rem;
-    padding: 0 0 40px 0;
-
-    &:hover {
-        cursor: pointer;
-        
     }
 }
 
