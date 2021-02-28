@@ -6,7 +6,7 @@ title: trash-project | Post
 
 <article class="post">
     <div class="post__actions">
-        <a href="#">вернуться назад</a>
+        <a href="index.html">вернуться назад</a>
         <a href="#">поделиться<img class="post__actions-icon" src="./assets/images/share.svg" alt="поделиться">
         </a>
     </div>
@@ -64,13 +64,13 @@ title: trash-project | Post
 
             <p>
                 <span class="fr-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/H25po8jXitU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OaCYnhLVYVI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </span>
             </p>
-        </div> 
-        <!-- post__text -->
+        </div><!-- post__text -->
+
         <div class="related">
-            <h3 class="related__title">
+            <h3 class="post__subtitle">
                 Интересно почитать
             </h3>
             <ul class="related__list">
@@ -107,6 +107,44 @@ title: trash-project | Post
                     </time>
                 </li>
             </ul>
-        </div>
+        </div><!-- related -->
+        
+        <h3 class="post__subtitle"> Обсуждение</h3>
+        <form class="form" action="/" method="POST">
+            <div class="form__group">
+                <textarea class="form__control form__control--textarea" name="comment-text" placeholder="Текст комментария"></textarea>
+                <span class="form__line"></span>
+            </div>  
+            <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+        </form>
+        
+        <ul class="comments">
+            <li class="comments__item">
+                <div class="comments__header">
+                    <img class="comments__avatar" src="https://placehold.it/30" alt="">
+                    <div class="comments__author">
+                        <div class="comments__name">Евгений Карась</div>
+                        <time class="comments__pubdate" datetime="2021-02-28 19:21">1 неделя назад</time>
+                    </div>
+                </div>
+                <div class="comments_text">
+                    Junior Front-end developer. I want to become a professional full-stack developer and there are all the prerequisites for this</div>
+                <button class="comments__reply" type="button">ответить</button>
+                <ul class="comments">
+                    <li class="comments__item">
+                        <div class="comments__header">
+                            <img class="comments__avatar" src="https://placehold.it/30" alt="">
+                            <div class="comments__author">
+                                <div class="comments__name">Странный чел</div>
+                                <time class="comments__pubdate" datetime="2021-02-28 19:21">1 день назад</time>
+                            </div>
+                        </div>
+                        <div class="comments_text">
+                            Норма</div>
+                        <button class="comments__reply" type="button">ответить</button>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div><!-- post_content -->
 </article><!-- /.post -->
