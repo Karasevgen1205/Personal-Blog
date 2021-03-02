@@ -33,14 +33,17 @@
 
         &:hover {
             background-color: darken($blue, 5%);
+            text-decoration: none;
         }
     }
 
     &--rounded {
         border-radius: 0.41em;
+        text-decoration: none;
     }
 
     &--sm {
         padding: 0.7em 1.25em;
+        text-decoration: none;
     }
 }
