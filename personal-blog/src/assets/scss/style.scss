@@ -17,16 +17,9 @@ body {
     line-height: 1.5;
     color: $white;
 
-    .no-scroll {
+    &.no-scroll,
+    &.show-sidebar {
         overflow: hidden;
-    }
-}
-
-a {
-    text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
     }
 }
 
@@ -36,6 +29,13 @@ a {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
 
 /* Blocks */
 @import "blocks/page";

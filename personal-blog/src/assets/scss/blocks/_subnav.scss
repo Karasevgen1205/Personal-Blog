@@ -16,6 +16,15 @@
     top: 100%;
     left: 0;
     visibility: hidden;
+
+    @include breackpoint($tablet-bp) {
+        position: static;
+        width: 100%;
+        padding-left: 2rem;
+
+        border-color: transparent;
+        box-shadow: none;
+    }
 }
 
 .subnav__link {
@@ -31,6 +40,17 @@
     &:hover {
         background-color: darken($blue, 5%);
         text-decoration: none;
+    }
+
+    @include breackpoint($tablet-bp) {
+        padding-left: 0;
+        padding-right: 0;
+
+        font-size: 1.5rem;
+        
+        &:hover {
+            background-color: none;
+        }
     }
 }
 

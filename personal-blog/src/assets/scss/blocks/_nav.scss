@@ -1,11 +1,23 @@
 .nav {
+
     @include breackpoint($tablet-bp) {
         display: none;
+
+        &--mobile {
+            display: block;   
+            margin: 3rem 0;
+        }
     }
+
+    
 }
 
 .nav__list {
     display: flex;
+
+    @include breackpoint($tablet-bp) {
+        flex-direction: column;
+    }
 }
 
 .nav__item {
@@ -21,6 +33,15 @@
             visibility: visible;
             opacity: 1;
             z-index: 2;
+        }
+    }
+
+    @include breackpoint($tablet-bp) {
+        &:hover {
+
+            .nav__link {
+            background-color: none;
+            }
         }
     }
 }
@@ -55,6 +76,12 @@
             right: 1.35rem;
             transform: translateY(-50%);
         }
+    }
+    
+    @include breackpoint($tablet-bp) {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 1.6rem;
     }
 }
 
