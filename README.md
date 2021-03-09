@@ -1,2 +1,2 @@
 # Personal-Blog
-HTML + CSS + SCSS + JS
+HTML + CSS + SCSS + JS (
