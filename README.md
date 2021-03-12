@@ -1,2 +1,2 @@
 # Personal-Blog
-HTML + CSS + SCSS + JS (using G
+HTML + CSS + SCSS + JS (using Gu
