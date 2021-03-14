@@ -1,2 +1,2 @@
 # Personal-Blog
-HTML + CSS + SCSS + JS (using Gulp
+HTML + CSS + SCSS + JS (using Gulp)
